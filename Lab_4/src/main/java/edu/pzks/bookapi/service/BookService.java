@@ -31,7 +31,7 @@ public class BookService {
     }
 
     @PostConstruct
-    void init() {
+    public void init() {
         bookRepository.saveAll(books);
     }
 
